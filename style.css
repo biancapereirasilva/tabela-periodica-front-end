@@ -256,3 +256,147 @@ body {
 .elemento:nth-child(111):hover, .elemento:nth-child(112):hover {
     background-color: #cc8400;
 }
+/* Grupo do Boro — coluna 13 — amarelo */
+.elemento:nth-child(5),
+.elemento:nth-child(13),
+.elemento:nth-child(31),
+.elemento:nth-child(49),
+.elemento:nth-child(81),
+.elemento:nth-child(113) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(5):hover,
+.elemento:nth-child(13):hover,
+.elemento:nth-child(31):hover,
+.elemento:nth-child(49):hover,
+.elemento:nth-child(81):hover,
+.elemento:nth-child(113):hover {
+    background-color: #cccc00;
+}
+/* Grupo do Carbono — coluna 14 — amarelo */
+.elemento:nth-child(6),
+.elemento:nth-child(14),
+.elemento:nth-child(32),
+.elemento:nth-child(50),
+.elemento:nth-child(82),
+.elemento:nth-child(114) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(6):hover,
+.elemento:nth-child(14):hover,
+.elemento:nth-child(32):hover,
+.elemento:nth-child(50):hover,
+.elemento:nth-child(82):hover,
+.elemento:nth-child(114):hover {
+    background-color: #cccc00;
+}
+/* Grupo do Nitrogênio — coluna 15 — amarelo */
+.elemento:nth-child(7),
+.elemento:nth-child(15),
+.elemento:nth-child(33),
+.elemento:nth-child(51),
+.elemento:nth-child(83),
+.elemento:nth-child(115) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(7):hover,
+.elemento:nth-child(15):hover,
+.elemento:nth-child(33):hover,
+.elemento:nth-child(51):hover,
+.elemento:nth-child(83):hover,
+.elemento:nth-child(115):hover {
+    background-color: #cccc00;
+}
+/* Grupo do Oxigênio — coluna 16 — amarelo */
+.elemento:nth-child(8),
+.elemento:nth-child(16),
+.elemento:nth-child(34),
+.elemento:nth-child(52),
+.elemento:nth-child(84),
+.elemento:nth-child(116) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(8):hover,
+.elemento:nth-child(16):hover,
+.elemento:nth-child(34):hover,
+.elemento:nth-child(52):hover,
+.elemento:nth-child(84):hover,
+.elemento:nth-child(116):hover {
+    background-color: #cccc00;
+}
+/* Halogênios — coluna 17 — amarelo */
+.elemento:nth-child(9),
+.elemento:nth-child(17),
+.elemento:nth-child(35),
+.elemento:nth-child(53),
+.elemento:nth-child(85),
+.elemento:nth-child(117) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(9):hover,
+.elemento:nth-child(17):hover,
+.elemento:nth-child(35):hover,
+.elemento:nth-child(53):hover,
+.elemento:nth-child(85):hover,
+.elemento:nth-child(117):hover {
+    background-color: #cccc00;
+}
+/* Gases Nobres — coluna 18 — amarelo */
+.elemento:nth-child(2),
+.elemento:nth-child(10),
+.elemento:nth-child(18),
+.elemento:nth-child(36),
+.elemento:nth-child(54),
+.elemento:nth-child(86),
+.elemento:nth-child(118) {
+    background-color: yellow;
+}
+
+.elemento:nth-child(2):hover,
+.elemento:nth-child(10):hover,
+.elemento:nth-child(18):hover,
+.elemento:nth-child(36):hover,
+.elemento:nth-child(54):hover,
+.elemento:nth-child(86):hover,
+.elemento:nth-child(118):hover {
+    background-color: #cccc00;
+}
+/* Lantanídeos — azul claro */
+
+.elemento:nth-child(58), .elemento:nth-child(59), .elemento:nth-child(60),
+.elemento:nth-child(61), .elemento:nth-child(62), .elemento:nth-child(63),
+.elemento:nth-child(64), .elemento:nth-child(65), .elemento:nth-child(66),
+.elemento:nth-child(67), .elemento:nth-child(68), .elemento:nth-child(69),
+.elemento:nth-child(70), .elemento:nth-child(71), .elemento:nth-child(57) {
+    background-color: #add8e6;
+}
+
+.elemento:nth-child(58):hover, .elemento:nth-child(59):hover, .elemento:nth-child(60):hover,
+.elemento:nth-child(61):hover, .elemento:nth-child(62):hover, .elemento:nth-child(63):hover,
+.elemento:nth-child(64):hover, .elemento:nth-child(65):hover, .elemento:nth-child(66):hover,
+.elemento:nth-child(67):hover, .elemento:nth-child(68):hover, .elemento:nth-child(69):hover,
+.elemento:nth-child(70):hover, .elemento:nth-child(71):hover, .elemento:nth-child(57):hover {
+    background-color: #8db8c6;
+}
+
+/* Actinídeos — azul claro */
+.elemento:nth-child(90), .elemento:nth-child(91), .elemento:nth-child(92),
+.elemento:nth-child(93), .elemento:nth-child(94), .elemento:nth-child(95),
+.elemento:nth-child(96), .elemento:nth-child(97), .elemento:nth-child(98),
+.elemento:nth-child(99), .elemento:nth-child(100), .elemento:nth-child(101),
+.elemento:nth-child(102), .elemento:nth-child(103), .elemento:nth-child(89) {
+    background-color: #add8e6;
+}
+
+.elemento:nth-child(90):hover, .elemento:nth-child(91):hover, .elemento:nth-child(92):hover,
+.elemento:nth-child(93):hover, .elemento:nth-child(94):hover, .elemento:nth-child(95):hover,
+.elemento:nth-child(96):hover, .elemento:nth-child(97):hover, .elemento:nth-child(98):hover,
+.elemento:nth-child(99):hover, .elemento:nth-child(100):hover, .elemento:nth-child(101):hover,
+.elemento:nth-child(102):hover, .elemento:nth-child(103):hover, .elemento:nth-child(89):hover {
+    background-color: #8db8c6;
+}
