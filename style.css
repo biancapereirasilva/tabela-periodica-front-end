@@ -45,12 +45,12 @@ body {
 .simbolo {
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
  
 .nome {
     font-size: 7px;
-    color: #ccc;
+    color: #000000;
     text-align: center;
 }
  
@@ -185,4 +185,74 @@ body {
 .elemento:nth-child(116) { grid-column: 16; grid-row: 7; }  /* Lv */
 .elemento:nth-child(117) { grid-column: 17; grid-row: 7; }  /* Ts */
 .elemento:nth-child(118) { grid-column: 18; grid-row: 7; }  /* Og */
- 
+
+/* Metais alcalinos — verde claro */
+.elemento:nth-child(1),
+.elemento:nth-child(3),
+.elemento:nth-child(11),
+.elemento:nth-child(19),
+.elemento:nth-child(37),
+.elemento:nth-child(55),
+.elemento:nth-child(87) {
+    background-color: #90ee90;
+}
+
+.elemento:nth-child(1):hover,
+.elemento:nth-child(3):hover,
+.elemento:nth-child(11):hover,
+.elemento:nth-child(19):hover,
+.elemento:nth-child(37):hover,
+.elemento:nth-child(55):hover,
+.elemento:nth-child(87):hover {
+    background-color: #70ce70;
+}
+
+/*Metais alcalinoterrosos (Be, Mg, Ca, Sr, Ba, Ra) - verde escuro */
+.elemento:nth-child(4),
+.elemento:nth-child(12),
+.elemento:nth-child(20),
+.elemento:nth-child(38),
+.elemento:nth-child(56),
+.elemento:nth-child(88) {
+    background-color: #336833;
+}
+.elemento:nth-child(4):hover,
+.elemento:nth-child(12):hover,
+.elemento:nth-child(20):hover,
+.elemento:nth-child(38):hover,
+.elemento:nth-child(56):hover,
+.elemento:nth-child(88):hover {
+    background-color: #123812;
+}
+ /* Metais de transição — laranja */
+.elemento:nth-child(21), .elemento:nth-child(22), .elemento:nth-child(23),
+.elemento:nth-child(24), .elemento:nth-child(25), .elemento:nth-child(26),
+.elemento:nth-child(27), .elemento:nth-child(28), .elemento:nth-child(29),
+.elemento:nth-child(30), .elemento:nth-child(39), .elemento:nth-child(40),
+.elemento:nth-child(41), .elemento:nth-child(42), .elemento:nth-child(43),
+.elemento:nth-child(44), .elemento:nth-child(45), .elemento:nth-child(46),
+.elemento:nth-child(47), .elemento:nth-child(48), .elemento:nth-child(72),
+.elemento:nth-child(73), .elemento:nth-child(74), .elemento:nth-child(75),
+.elemento:nth-child(76), .elemento:nth-child(77), .elemento:nth-child(78),
+.elemento:nth-child(79), .elemento:nth-child(80), .elemento:nth-child(104),
+.elemento:nth-child(105), .elemento:nth-child(106), .elemento:nth-child(107),
+.elemento:nth-child(108), .elemento:nth-child(109), .elemento:nth-child(110),
+.elemento:nth-child(111), .elemento:nth-child(112) {
+    background-color: #FFA500;
+}
+
+.elemento:nth-child(21):hover, .elemento:nth-child(22):hover, .elemento:nth-child(23):hover,
+.elemento:nth-child(24):hover, .elemento:nth-child(25):hover, .elemento:nth-child(26):hover,
+.elemento:nth-child(27):hover, .elemento:nth-child(28):hover, .elemento:nth-child(29):hover,
+.elemento:nth-child(30):hover, .elemento:nth-child(39):hover, .elemento:nth-child(40):hover,
+.elemento:nth-child(41):hover, .elemento:nth-child(42):hover, .elemento:nth-child(43):hover,
+.elemento:nth-child(44):hover, .elemento:nth-child(45):hover, .elemento:nth-child(46):hover,
+.elemento:nth-child(47):hover, .elemento:nth-child(48):hover, .elemento:nth-child(72):hover,
+.elemento:nth-child(73):hover, .elemento:nth-child(74):hover, .elemento:nth-child(75):hover,
+.elemento:nth-child(76):hover, .elemento:nth-child(77):hover, .elemento:nth-child(78):hover,
+.elemento:nth-child(79):hover, .elemento:nth-child(80):hover, .elemento:nth-child(104):hover,
+.elemento:nth-child(105):hover, .elemento:nth-child(106):hover, .elemento:nth-child(107):hover,
+.elemento:nth-child(108):hover, .elemento:nth-child(109):hover, .elemento:nth-child(110):hover,
+.elemento:nth-child(111):hover, .elemento:nth-child(112):hover {
+    background-color: #cc8400;
+}
